@@ -9,6 +9,12 @@ Tested on:
 1- Debian
 2- Windows
 
+requirements:
+awesometkinter
+arabic_reshaper
+python-bidi
+
+
 How to use:
 simply import the ATkEntry into your python file, it supports tkinter entry aguments.
 
@@ -24,3 +30,4 @@ show                ""
 
 If arabic is set to False it will remove the support for arabic letters.
 If show is set to "*" it the entry will repace the text entered by *. 
+
