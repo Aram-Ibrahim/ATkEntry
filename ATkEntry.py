@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import tkinter
-import customtkinter
 from awesometkinter.bidirender import add_bidi_support, render_text
 import arabic_reshaper
 from bidi.algorithm import get_display
