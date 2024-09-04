@@ -17,7 +17,9 @@ Inspired by customtkinter CTkEntry.
 
 # Requirements:
 1- awesometkinter
+
 2- arabic_reshaper
+
 3- python-bidi
 
 
