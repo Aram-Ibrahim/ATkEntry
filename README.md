@@ -1,48 +1,39 @@
 # ATkEntry
 A simple extension for tkinter entry in order to add support for Arabic letters in Linux.
-<br>
+
 Inspired by customtkinter CTkEntry.
 
-<br>
-Supported Platforams:
-<br>
+
+# Supported Platforams:
 1- Linux
 
 2- Windows
 
-<br>
-Tested on:
-<br>
+# Tested on:
 1- Debian
 
 2- Windows
 
-<br>
-requirements:
-<br>
-awesometkinter
 
-arabic_reshaper
-<br>
-python-bidi
+# Requirements:
+1- awesometkinter
+2- arabic_reshaper
+3- python-bidi
 
-<br>
 
-How to use:
-<br>
-simply import the ATkEntry into your python file, it supports tkinter entry aguments.
+# How to use:
+Simply import the ATkEntry into your python file `from ATkEntry import ATkEntry`
+t supports tkinter entry aguments.
 
-<br>
-Extra aguments:
-<br>
+# Extra aguments:
 arabic=True
 
 placeholder_text
-<br>
+
 show=""
 
 
-<br>
+# Notes:
 If arabic is set to False it will remove the support for arabic letters.
 
 If show is set to "*" it the entry will repace the text entered by *. 
